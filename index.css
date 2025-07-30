@@ -1,0 +1,64 @@
+/*reseto basico */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body{
+
+	font-family: 'segoe UI', sans-serif;
+	background-color: #f0f4f8;
+	color: #333;
+	line-height: 1.6;
+	flex: 1;
+
+}
+
+header{
+
+	background-color: #2332b0;
+
+}
+.menu ul{
+
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0;
+
+}
+
+.menu ul li{
+
+	margin: 0 20px;
+
+}
+
+.menu ul li a:hover{
+	color: #ffcc00;
+
+}
+
+main{
+	padding: 40px 20px;
+	text-align: justify;
+	flex: 1;
+
+}
+
+footer{
+	background-color: #2332b0;
+	color: white;
+	text-align: center;
+	padding: 15px 10px;
+
+}
+
+html,body{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+
+}
+
